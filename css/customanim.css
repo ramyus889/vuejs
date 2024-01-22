@@ -1,0 +1,85 @@
+.animation-ty {
+  animation: animY11 3s linear infinite alternate;
+}
+@keyframes animY11 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+.animation-tys {
+  animation: animY222 4s linear infinite alternate;
+}
+@keyframes animY222 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+.animation-tyd {
+  animation: animY33 6s linear infinite alternate;
+}
+@keyframes animY33 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+.animation-rotate {
+  animation: anim 20s linear infinite;
+}
+@keyframes anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animation-rotate2 {
+  animation: anim2 90s linear infinite;
+}
+@keyframes anim2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.animation-rotate3 {
+  animation: anim33 90s linear infinite;
+}
+@keyframes anim33 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
