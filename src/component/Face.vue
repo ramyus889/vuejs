@@ -32,7 +32,6 @@
     </div>
 
     <img
-      v-auto-animate
       class="w-[12%] top-[23em] end-[27em] absolute animation-ty"
       src="/img/cub2.webp"
       alt=""
