@@ -5,7 +5,7 @@ import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  publicPath: "/vue.js-pvtw - сайт/",
+  publicPath: `/vue.js-pvtw - сайт/`,
   plugins: [vue()],
   resolve: {
     alias: {
