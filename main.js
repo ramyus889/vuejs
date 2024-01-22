@@ -10,9 +10,9 @@ import "/css/animationH.css";
 import "/css/fontStyle.css";
 import "/css/hover.css";
 import "/css/transform.css";
-import "./assets/main.css";
+import "/src/assets/main.css";
 import { createApp } from "vue";
-import App from "./App.vue";
+import App from "./src/App.vue";
 
 const app = createApp(App);
 
